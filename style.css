@@ -1,0 +1,33 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: black;
+        text-align: center;
+    }
+    header {
+        background-color: #007acc;
+        color: whitesmoke;
+        padding: 20px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    p {
+        font-size: 18px;
+    }
+    section {
+        margin: 20px;
+        padding: 20px;
+        background-color:whitesmoke;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    footer {
+        background-color: #007acc;
+        color: #whitesmoke;
+        padding: 10px;
+    }
+</style>
