@@ -13,6 +13,7 @@
     }
     p {
         font-size: 18px;
+        text-align: justify;
     }
     section {
         margin: 20px;
@@ -25,7 +26,11 @@
         font-size: 24px;
     }
     footer {
-        background-color: #007acc;
-        color: whitesmoke;
-        padding: 10px;
-    }
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        color: white;
+        text-align: center;
+      }
