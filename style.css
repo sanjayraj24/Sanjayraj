@@ -1,4 +1,3 @@
-<style>
     body {
         font-family: Arial, sans-serif;
         background-color: black;
@@ -27,8 +26,6 @@
     }
     footer {
         background-color: #007acc;
-        color: #whitesmoke;
+        color: whitesmoke;
         padding: 10px;
     }
-</style>
-
