@@ -1,36 +1,159 @@
-    body {
-        font-family: Arial, sans-serif;
-        background-color: black;
-        text-align: center;
-    }
-    header {
-        background-color: #007acc;
-        color: whitesmoke;
-        padding: 20px;
-    }
-    h1 {
-        font-size: 36px;
-    }
-    p {
-        font-size: 18px;
-        text-align: justify;
-    }
-    section {
-        margin: 20px;
-        padding: 20px;
-        background-color:whitesmoke;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        text-align: center;
-    }
-    h2 {
-        font-size: 24px;
-    }
-    footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: red;
-        color: white;
-        text-align: center;
-      }
+*{
+    margin: 0;
+
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+
+ }
+
+ .flex{
+
+    display: flex;
+
+    align-items: center;
+
+ }
+
+ body{
+
+    background-color: black;
+
+ }
+
+ .container{
+
+    width: 100%;
+
+    background-color: black;
+
+    overflow-x: hidden;
+
+    color: white;
+
+}
+
+ .container header{
+
+    width: 100%;
+
+    height: 9vh;
+
+    padding: 10px 60px;
+
+    justify-content: space-between;
+
+    background-color: rgb(238, 135, 10);
+
+ }
+
+ header .Logo{
+
+    font-size: 100px;
+
+    font-weight: 600;
+
+    width: 30%;
+    
+    margin-left: 100 px;
+ }
+
+header nav{
+
+    width: 70%;
+
+    display:flex;
+
+ }
+
+section {
+    margin: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+header nav ul{
+
+    justify-content: center;
+
+    width: 70%;
+
+ }
+
+
+
+nav ul li{
+
+    list-style: none;
+
+}
+
+nav ul li a{
+
+    text-decoration: solid;
+
+    font-size: 20px;
+    font-family: Georgia;
+    overflow-x: hidden;
+
+    padding: 10px 25px;
+
+    font-weight:500;
+
+    color: white;
+
+}
+
+nav ul li a:hover{
+
+
+
+    color: #FFDE59;
+
+
+
+}
+
+.aboutme{
+    position: relative;
+    padding-left: 0%;
+    text-align:start;
+}
+
+.aboutme h2{
+
+    text-align: left;
+
+
+}
+.content{
+
+    position: relative;
+    text-align: justify;
+
+}
+
+.image {
+
+     display: block;
+     margin-left: auto;
+     margin-right: 90px;
+     margin-top: 90px;
+     max-width:100%;
+     height:auto;
+     border-radius: 50%;
+}
+
+footer {
+    background-color: #007acc;
+    color: whitesmoke;
+    padding: 10px;
+    position: relative;
+    left:0%;;
+    bottom:0;
+    width:100%;
+    background-color:red;
+    color:white;
+    text-align: center;
+    align-items: center;
+  }
